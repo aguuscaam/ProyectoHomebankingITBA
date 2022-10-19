@@ -1,0 +1,186 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+
+}
+
+
+.formulario {
+    width: 500px;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.formulario__título {
+    text-align: center;
+    margin-top: 0;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.formulario__input, .formulario__label, .formulario__submit {
+    display: block;
+    width: 100%;
+    font-size: 1.3em;
+
+}
+
+.formulario__input {
+    padding: 15px;
+    /*background: transparent;*/
+    background: rgba(47, 45, 57, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    margin-bottom: 40px;
+}
+.formulario__input:focus {
+    outline: 1px solid rgba(0, 0, 0, 0.7);
+}
+.formulario__input:focus + .formulario__label{
+    margin-top: -135px;
+
+
+}
+
+.formulario__label{
+    padding-left: 15px;
+    position: absolute;
+    margin-top: -85px;
+   
+    color: rgba(0, 0, 0, 0.5);
+    transition: all 0.2s;
+}
+
+.formulario__submit {
+    background: rgba(47, 45, 57, 0.9);
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.fijar { 
+    margin-top: -135px;
+}
+
+/*header*/
+
+header .barra-nav {
+    margin: 0 auto;
+    height: 6em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #302e39;
+  }
+  /*imagen logo*/
+  header .barra-nav .logo-itbank {
+    height: 5em;
+    padding-left: 8em;
+  }
+  /* botones header*/
+  header .boton-nav {
+    font-size: medium;
+    font-weight: normal;
+    color: white;
+    background-color: #0e6da8;
+    border-radius: 1em;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* menu izq*/
+  
+  header .menu-desplegable button {
+    height: 3em;
+    width: 8em;
+    margin-left: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  header .barra-nav .boton-nav i {
+    margin-right: 0.5em;
+  }
+  
+  header .barra-nav p {
+    margin: 0;
+  }
+  
+  header .menu-desplegable div {
+    background-color: #0e6da8;
+    color: #fff;
+  }
+  header .menu-desplegable .btn-close {
+    color: #fff;
+  }
+  
+  /* sector derecho*/
+  header .nav-right-section {
+    display: flex;
+    justify-content: flex-end;
+    margin: 1em;
+  }
+  
+  header .nav-right-section li {
+    color: white;
+    height: 3em;
+    padding: 0.5em;
+    display: flex;
+    align-items: center;
+  }
+  
+  header .nav-right-section img {
+    height: 2em;
+    border-radius: 50%;
+    margin: 0.5em;
+    margin-right: 1em;
+  }
+  
+  header .nav-right-section .boton-nav {
+    width: 6em;
+    height: 3em;
+  }
+  /*buscador */
+  header .buscador-header {
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+  }
+  header .buscador-header form {
+    display: flex;
+    justify-content: center;
+  }
+  header .buscador-header input {
+    height: 2.5em;
+    width: 30rem;
+    border-radius: 0.5em;
+    border-width: thin;
+    outline-offset: 0;
+    outline-color: #0e6da8;
+    margin-right: 0.5em;
+  }
+  
+  header .buscador-header .boton-nav {
+    height: 2.5em;
+    width: 3em;
+  }
+  
+  header .buscador-header .boton-nav i {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  main {
+    margin-bottom: 4rem;
+  }
+  
+
